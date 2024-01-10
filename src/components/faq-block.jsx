@@ -158,7 +158,7 @@ function Faq() {
             </section>
                   {toggle === "fourth"? <section className="flex justify-between">
               <p className="text-base xl:text-[18px] gray-font flex items-center">
-                In some cases yes, our couses designed for more advanced students.
+                In some cases yes, our courses designed for more advanced students.
               </p>
             </section>: null }
             

@@ -1,8 +1,8 @@
 {
-  "name": "react-couses",
+  "name": "react-courses",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://CriminalSnail.github.io/react-courses",
+  "homepage": "https://CriminalSnail.github.io/Courses-React",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
