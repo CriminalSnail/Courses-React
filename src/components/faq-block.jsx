@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 
 function Faq() {
@@ -156,12 +155,14 @@ function Faq() {
                 )}
               </button>
             </section>
-                  {toggle === "fourth"? <section className="flex justify-between">
-              <p className="text-base xl:text-[18px] gray-font flex items-center">
-                In some cases yes, our courses designed for more advanced students.
-              </p>
-            </section>: null }
-            
+            {toggle === "fourth" ? (
+              <section className="flex justify-between">
+                <p className="text-base xl:text-[18px] gray-font flex items-center">
+                  In some cases yes, our courses designed for more advanced
+                  students.
+                </p>
+              </section>
+            ) : null}
           </div>
 
           <div className="flex flex-col gap-10 px-10 py-6  xl:px-[50px] xl:py-[30px]">
@@ -182,13 +183,14 @@ function Faq() {
                 )}
               </button>
             </section>
-                  {toggle === "fith" ?  <section className="flex justify-between">
-              <p className="text-base xl:text-[18px] gray-font flex items-center">
-                Shure, all of the videos and streams are avalible for download
-                and accsessible online.
-              </p>
-            </section>: null}
-           
+            {toggle === "fith" ? (
+              <section className="flex justify-between">
+                <p className="text-base xl:text-[18px] gray-font flex items-center">
+                  Shure, all of the videos and streams are avalible for download
+                  and accsessible online.
+                </p>
+              </section>
+            ) : null}
           </div>
         </section>
       </div>
