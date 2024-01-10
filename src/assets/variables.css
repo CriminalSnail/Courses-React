@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Be Vietnam Pro;
+    src: url("/Fonts/Be_Vietnam_Pro/BeVietnamPro-Medium.woff2");
+}
+:root {
+--orange:#FF9500;
+--yellow:#FFF4E5;
+--very-light-orange:#FFEACC;
+--lightest-orange:#FFF9F0;
+--main-font: Be Vietnam Pro;
+--light-gray:#4C4C4D;
+--lightest-gray:#59595A;
+--gray:#333;
+ }
+
