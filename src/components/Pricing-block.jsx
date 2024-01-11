@@ -1,3 +1,9 @@
+import React from "react";
+
+import Included from "../assets/icons/pricing-icon-included.svg"
+import Excluded from "../assets/icons/pricing-icon-excluded.svg"
+
+
 function PricingBlock() {
   return ( <article name="pricing" className="flex mx-24 xl:mx-40 mt-[100px]">
     <div className="flex flex-col gap-[60px] xl:gap-[80px]">
@@ -51,31 +57,31 @@ function PricingBlock() {
               <div className="flex-flex-col px-7 gap-5">
                 <div className="flex flex-col gap-5">
                   <div className="flex gap-2 p-3 ">
-                    <img className="included xl:p-[6px]" src="src/assets/icons/pricing-icon-included.svg" />
+                    <img className="included xl:p-[6px]" src={Included}/>
                     <p className="gray-font text-base xl:text-lg">Access to selected free courses.</p>
                   </div>
                   <div className="flex gap-2 p-3">
-                    <img className="included xl:p-[6px]" src="src/assets/icons/pricing-icon-included.svg" />
+                    <img className="included xl:p-[6px]" src={Included} />
                     <p className="gray-font text-base xl:text-lg">Limited course materials and resources.</p>
                   </div>
                   <div className="flex gap-2 p-3">
-                    <img className="included xl:p-[6px]" src="src/assets/icons/pricing-icon-included.svg" />
+                    <img className="included xl:p-[6px]" src={Included} />
                     <p className="gray-font text-base xl:text-lg">Basic community support.</p>
                   </div>
                   <div className="flex gap-2 p-3">
-                    <img className="included xl:p-[6px]" src="src/assets/icons/pricing-icon-included.svg" />
+                    <img className="included xl:p-[6px]" src={Included} />
                     <p className="gray-font text-base xl:text-lg">No certification upon completion.</p>
                   </div>
                   <div className="flex gap-2 p-3">
-                    <img className="included xl:p-[6px]" src="src/assets/icons/pricing-icon-included.svg" />
+                    <img className="included xl:p-[6px]" src={Included} />
                     <p className="gray-font text-base xl:text-lg">Ad-supported platform.</p>
                   </div>
                   <div className="flex gap-2 p-3">
-                    <img className="rounded-md xl:p-[6px]" src="src/assets/icons/pricing-icon-excluded.svg" />
+                    <img className="rounded-md xl:p-[6px]" src={Excluded} />
                     <p className="gray-font text-base xl:text-lg">Access to exclusive Pro Plan community forums.</p>
                   </div>
                   <div className="flex gap-2 p-3">
-                    <img className=" rounded-md xl:p-[6px]" src="src/assets/icons/pricing-icon-excluded.svg" />
+                    <img className=" rounded-md xl:p-[6px]" src={Excluded} />
                     <p className="gray-font text-base xl:text-lg">Early access to new courses and updates.</p>
                   </div>
                 </div>
@@ -112,31 +118,31 @@ function PricingBlock() {
               <div className="flex-flex-col px-7 gap-5">
                 <div className="flex flex-col gap-5">
                   <div className="flex gap-2 p-3">
-                    <img className="included xl:p-[6px]" src="src/assets/icons/pricing-icon-included.svg" />
+                    <img className="included xl:p-[6px]" src={Included} />
                     <p className="gray-font text-base xl:text-lg">Unlimited access to all courses.</p>
                   </div>
                   <div className="flex gap-2 p-3">
-                    <img className="included xl:p-[6px]" src="src/assets/icons/pricing-icon-included.svg" />
+                    <img className="included xl:p-[6px]" src={Included} />
                     <p className="gray-font text-base xl:text-lg">Unlimited course materials and resources.</p>
                   </div>
                   <div className="flex gap-2 p-3">
-                    <img className="included xl:p-[6px]" src="src/assets/icons/pricing-icon-included.svg" />
+                    <img className="included xl:p-[6px]" src={Included} />
                     <p className="gray-font text-base xl:text-lg">Priority support from instructors.</p>
                   </div>
                   <div className="flex gap-2 p-3">
-                    <img className="included xl:p-[6px]" src="src/assets/icons/pricing-icon-included.svg" />
+                    <img className="included xl:p-[6px]"src={Included} />
                     <p className="gray-font text-base xl:text-lg">Course completion certificates.</p>
                   </div>
                   <div className="flex gap-2 p-3">
-                    <img className="included xl:p-[6px]" src="src/assets/icons/pricing-icon-included.svg" />
+                    <img className="included xl:p-[6px]" src={Included}/>
                     <p className="gray-font text-base xl:text-lg">Ad-free experience.</p>
                   </div>
                   <div className="flex gap-2 p-3">
-                    <img  className="xl:p-[6px] rounded-md" src="src/assets/icons/pricing-icon-included.svg" />
+                    <img  className="included xl:p-[6px] rounded-md" src={Included} />
                     <p className="gray-font text-base xl:text-lg">Access to exclusive Pro Plan community forums.</p>
                   </div>
                   <div className="flex gap-2 p-3">
-                    <img className="xl:p-[6px] rounded-md " src="src/assets/icons/pricing-icon-included.svg" />
+                    <img className=" included xl:p-[6px] rounded-md " src={Included} />
                     <p className="gray-font text-base xl:text-lg">Early access to new courses and updates.</p>
                   </div>
                 </div>

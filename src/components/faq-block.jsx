@@ -1,5 +1,10 @@
 import { useState } from "react";
 
+import OpenBtn from "../assets/icons/plus-sign.svg"
+import CloseBtn from "../assets/icons/close-back-icon.svg"
+import ArrowIcon from "../assets/icons/faq-arrow.svg"
+
+import React from "react";
 function Faq() {
   const [toggle, toggleSwitch] = useState("closed");
   function buttonHandle(event) {
@@ -29,7 +34,7 @@ function Faq() {
             </div>
             <div className="flex justify-start">
               <div className="px-5 py-3.5 xl:px-[24px] xl:py-[18px] text-lg ">
-                <a>See All FAQ’s</a>
+                <a href="#">See All FAQ’s</a>
               </div>
             </div>
           </header>
@@ -48,9 +53,9 @@ function Faq() {
                 }}
               >
                 {toggle === "first" ? (
-                  <img src="src/assets/icons/close-back-icon.svg" />
+                  <img src={CloseBtn} />
                 ) : (
-                  <img src="src/assets/icons/plus-sign.svg" />
+                  <img src={OpenBtn} />
                 )}
               </button>
             </section>
@@ -69,7 +74,7 @@ function Faq() {
                   Enrollment Process for Different Courses
                 </p>
                 <button className="p-2.5 rounded-md">
-                  <img src="src/assets/icons/faq-arrow.svg" />
+                  <img src={ArrowIcon} />
                 </button>
               </section>
             ) : null}
@@ -88,9 +93,9 @@ function Faq() {
                 }}
               >
                 {toggle === "second" ? (
-                  <img src="src/assets/icons/close-back-icon.svg" />
+                  <img src={CloseBtn} />
                 ) : (
-                  <img src="src/assets/icons/plus-sign.svg" />
+                  <img src={OpenBtn} />
                 )}
               </button>
             </section>
@@ -118,9 +123,9 @@ function Faq() {
                 }}
               >
                 {toggle === "third" ? (
-                  <img src="src/assets/icons/close-back-icon.svg" />
+                  <img src={CloseBtn} />
                 ) : (
-                  <img src="src/assets/icons/plus-sign.svg" />
+                  <img src={OpenBtn} />
                 )}
               </button>
             </section>
@@ -149,9 +154,9 @@ function Faq() {
                 }}
               >
                 {toggle === "fourth" ? (
-                  <img src="src/assets/icons/close-back-icon.svg" />
+                  <img src={CloseBtn} />
                 ) : (
-                  <img src="src/assets/icons/plus-sign.svg" />
+                  <img src={OpenBtn} />
                 )}
               </button>
             </section>
@@ -177,9 +182,9 @@ function Faq() {
                 }}
               >
                 {toggle === "fith" ? (
-                  <img src="src/assets/icons/close-back-icon.svg" />
+                  <img src={CloseBtn} />
                 ) : (
-                  <img src="src/assets/icons/plus-sign.svg" />
+                  <img src={OpenBtn} />
                 )}
               </button>
             </section>

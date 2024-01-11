@@ -1,3 +1,11 @@
+import React from "react";
+
+import SarahL from "../assets/icons/test-icon-01.svg"
+import JasonM from "../assets/icons/test-icon-02.svg"
+import EmilyR from "../assets/icons/test-icon-03.svg"
+import MichaelK from "../assets/icons/test-icon-04.svg"
+
+
 function Textimonials() {
   return (
     <article
@@ -11,9 +19,7 @@ function Textimonials() {
           </div>
           <div>
             <p className="gray-font text-base xl:text-lg ">
-              Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam
-              eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac
-              cum eget habitasse in velit fringilla feugiat senectus in.
+             Thousands of students and graduates are happy with our courses, instructors, and tech suport, well, let them speak for themself.
             </p>
           </div>
         </div>
@@ -42,15 +48,15 @@ function Textimonials() {
               <div>
                 <img
                   className=" w-[50px] h-[50px] xl:w-[60px] xl:h-[60px] rounded-lg "
-                  src="src/assets/icons/test-icon-01.svg"
+                  src={SarahL}
                   alt=""
                   
                 />
               </div>
               <div className="flex justify-center items-center">
-                <p className="dark-gray font-semibold  text-base xl:text-lg">
+                <a href="#" className="dark-gray font-semibold  text-base xl:text-lg">
                   Sarah L
-                </p>
+                </a>
               </div>
             </div>
             <div className="px-4 py-3.5 xl:px-[24px] xl:py-[18px]">
@@ -77,15 +83,15 @@ function Textimonials() {
               <div>
                 <img
                   className=" w-[50px] h-[50px] xl:w-[60px] xl:h-[60px] rounded-lg "
-                  src="src/assets/icons/test-icon-02.svg"
+                  src={JasonM}
                   alt=""
                   
                 />
               </div>
               <div className="flex justify-center items-center">
-                <p className="dark-gray font-semibold  text-base xl:text-lg">
+                <a href="#" className="dark-gray font-semibold  text-base xl:text-lg">
                   Jason M
-                </p>
+                </a>
               </div>
             </div>
             <div className="px-4 py-3.5 xl:px-[24px] xl:py-[18px]">
@@ -111,15 +117,15 @@ function Textimonials() {
               <div>
                 <img
                   className=" w-[50px] h-[50px] xl:w-[60px] xl:h-[60px] rounded-lg "
-                  src="src/assets/icons/test-icon-03.svg"
+                  src={EmilyR}
                   alt=""
                   
                 />
               </div>
               <div className="flex justify-center items-center">
-                <p className="dark-gray font-semibold text-base xl:text-lg">
+                <a href="#" className="dark-gray font-semibold text-base xl:text-lg">
                   Emily R
-                </p>
+                </a>
               </div>
             </div>
             <div className="px-4 py-3.5 xl:px-[24px] xl:py-[18px]">
@@ -146,15 +152,15 @@ function Textimonials() {
               <div>
                 <img
                   className=" w-[50px] h-[50px] xl:w-[60px] xl:h-[60px] rounded-lg "
-                  src="src/assets/icons/test-icon-04.svg"
+                  src={MichaelK}
                   alt=""
                  
                 />
               </div>
               <div className="flex justify-center items-center">
-                <p className="dark-gray font-semibold text-base xl:text-lg">
+                <a href="#" className="dark-gray font-semibold text-base xl:text-lg">
                   Michael K
-                </p>
+                </a>
               </div>
             </div>
             <div className="px-4 py-3.5 xl:px-[24px] xl:py-[18px]">

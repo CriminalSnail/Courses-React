@@ -1,4 +1,6 @@
+import React from "react";
 
+import ArrowIcon from "../assets/icons/plaque-arrow.svg"
 
 
 function BenefitsBlock() {
@@ -10,17 +12,15 @@ return (
           <div ><h1 className=" font-semibold text-4xl xl:text-5xl/[72px] ">Benefits</h1></div>
         </header>
         <section>
-          <p className="xl:text-lg">
-            Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet
-            et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla
-            feugiat senectus in.
+          <p className="lightest-gray-font text-base xl:text-lg/[27px]">
+            Thousands of students already trusting us in their learning journey, these are the benefits that they are enjoying the most. 
           </p>
         </section>
       </article>
 
       <div className="flex justify-center items-end whitespace-nowrap ">
         <div className="  px-5 py-3 xl:py-5 xl:px-6">
-          <a className=" text-lg ">View All</a>
+          <a  href="#" className=" text-lg ">View All</a>
         </div>
       </div>
     </section>
@@ -33,7 +33,7 @@ return (
           <div className="flex-col flex">
             <header>
               <div className="flex">
-                <p className="text-xl/[36px]/[30px] xl:text-2xl/[36px] font-semibold dark-gray leading-8">Flexible Learning Schedule</p>
+                <p className="text-xl xl:text-2xl/[36px] font-semibold dark-gray leading-8">Flexible Learning Schedule</p>
               </div>
             </header>
 
@@ -46,9 +46,9 @@ return (
         </div>
 
         <div className="flex justify-end">
-          <a className=" p-3.5  xl:p-5  w-14 h-14 xl:w-[74px] xl:h-[74px]
+          <a href="#" className=" p-3.5  xl:p-5  w-14 h-14 xl:w-[74px] xl:h-[74px]
           flex justify-center items-center">
-            <img className=" w-[26px] h-[26px] xl:w-[34px] xl:h-[34px]" src="src/assets/icons/plaque-arrow.svg" />
+            <img className=" w-[26px] h-[26px] xl:w-[34px] xl:h-[34px]" src={ArrowIcon}/>
           </a>
         </div>
       </div>
@@ -73,9 +73,9 @@ return (
         </div>
 
         <div className="flex justify-end">
-          <a className=" p-3.5  xl:p-5  w-14 h-14 xl:w-[74px] xl:h-[74px]
+          <a href="#" className=" p-3.5  xl:p-5  w-14 h-14 xl:w-[74px] xl:h-[74px]
           flex justify-center items-center">
-            <img className=" w-[26px] h-[26px] xl:w-[34px] xl:h-[34px]" src="src/assets/icons/plaque-arrow.svg" />
+            <img className=" w-[26px] h-[26px] xl:w-[34px] xl:h-[34px]" src={ArrowIcon}/>
           </a>
         </div>
       </div>
@@ -100,9 +100,9 @@ return (
         </div>
 
         <div className="flex justify-end">
-          <a className=" p-3.5  xl:p-5  w-14 h-14 xl:w-[74px] xl:h-[74px]
+          <a href="#" className=" p-3.5  xl:p-5  w-14 h-14 xl:w-[74px] xl:h-[74px]
           flex justify-center items-center">
-            <img className=" w-[26px] h-[26px] xl:w-[34px] xl:h-[34px]" src="src/assets/icons/plaque-arrow.svg" />
+            <img className=" w-[26px] h-[26px] xl:w-[34px] xl:h-[34px]" src={ArrowIcon}/>
           </a>
         </div>
       </div>
@@ -126,9 +126,9 @@ return (
         </div>
 
         <div className="flex justify-end">
-          <a className=" p-3.5  xl:p-5  w-14 h-14 xl:w-[74px] xl:h-[74px]
+          <a href="#" className=" p-3.5  xl:p-5  w-14 h-14 xl:w-[74px] xl:h-[74px]
           flex justify-center items-center">
-            <img className=" w-[26px] h-[26px] xl:w-[34px] xl:h-[34px]" src="src/assets/icons/plaque-arrow.svg" />
+            <img className=" w-[26px] h-[26px] xl:w-[34px] xl:h-[34px]" src={ArrowIcon} />
           </a>
         </div>
       </div>
@@ -153,9 +153,9 @@ return (
         </div>
 
         <div className="flex justify-end">
-          <a className=" p-3.5  xl:p-5  w-14 h-14 xl:w-[74px] xl:h-[74px]
+          <a href="#" className=" p-3.5  xl:p-5  w-14 h-14 xl:w-[74px] xl:h-[74px]
           flex justify-center items-center">
-            <img className=" w-[26px] h-[26px] xl:w-[34px] xl:h-[34px]" src="src/assets/icons/plaque-arrow.svg" />
+            <img className=" w-[26px] h-[26px] xl:w-[34px] xl:h-[34px]" src={ArrowIcon} />
           </a>
         </div>
       </div>
@@ -181,9 +181,9 @@ return (
         </div>
 
         <div className="flex justify-end">
-          <a className=" p-3.5  xl:p-5  w-14 h-14 xl:w-[74px] xl:h-[74px]
+          <a href="#" className=" p-3.5  xl:p-5  w-14 h-14 xl:w-[74px] xl:h-[74px]
           flex justify-center items-center">
-            <img className=" w-[26px] h-[26px] xl:w-[34px] xl:h-[34px]" src="src/assets/icons/plaque-arrow.svg" />
+            <img className=" w-[26px] h-[26px] xl:w-[34px] xl:h-[34px]" src={ArrowIcon} />
           </a>
         </div>
       </div>

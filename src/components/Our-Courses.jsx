@@ -1,3 +1,15 @@
+import React from "react";
+
+
+import WebDesFundPlaque from "../assets/imgs/plaque-1.png"
+import UIUXPlaque from "../assets/imgs/plaque-2.png"
+import MobilePlaque from "../assets/imgs/plaque-3.png"
+import GraphDesPlaque from "../assets/imgs/plaque-4.png"
+import WebDesPlaque from "../assets/imgs/plaque-5.png"
+import JSPlaque from "../assets/imgs/plaque-6.png"
+
+
+
 function OurCourses()
 { return (
   <article name="courses" className="flex-col flex gap-[60px] xl:gap-20 mx-24 xl:mx-40 mt-[100px]">
@@ -6,9 +18,7 @@ function OurCourses()
         <div className="linehight font-semibold text-4xl/[57px] xl:text-5xl/[72px]">Our Courses</div>
         <div>
           <p className="lightest-gray-font text-base xl:text-lg/[27px]">
-            Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet
-            et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla
-            feugiat senectus in.
+          Dosens of courses, hundreds of professional instructors, choose you favorite, and we will make you experience as joyfull as possible. 
           </p>
         </div>
       </div>
@@ -23,7 +33,7 @@ function OurCourses()
     <div className="grid-rows-3 gap-5 grid grid-cols-2">
       <div className="flex-col flex w-full justify-between p-10 xl:p-[50px]">
         <div className="flex-col flex gap-6 xl:gap-[30px]">
-          <div className=""><img className="w-full" src="src/assets/imgs/plaque-1.svg" /></div>
+          <div className=""><img className="w-full" src={WebDesFundPlaque} /></div>
 
           <div className="flex justify-between">
             <div className="flex">
@@ -52,7 +62,7 @@ function OurCourses()
 
       <div className="flex-col flex justify-between p-10 xl:p-[50px]">
         <div className="flex-col flex gap-6 xl:gap-[30px]">
-          <div className=""><img className="w-full" src="src/assets/imgs/plaque-2.svg" /></div>
+          <div className=""><img className="w-full" src={UIUXPlaque} /></div>
 
           <div className="flex justify-between">
             <div className="flex">
@@ -80,7 +90,7 @@ function OurCourses()
 
       <div className="flex-col flex w-full justify-between p-10 xl:p-[50px]">
         <div className="flex-col flex gap-6 xl:gap-[30px]">
-          <div className=""><img className="w-full" src="src/assets/imgs/plaque-3.svg" /></div>
+          <div className=""><img className="w-full" src={MobilePlaque}/></div>
 
           <div className="flex justify-between">
             <div className="flex">
@@ -107,7 +117,7 @@ function OurCourses()
 
       <div className="flex-col flex justify-between p-10 xl:p-[50px]">
         <div className="flex-col flex gap-6 xl:gap-[30px]">
-          <div className=""><img className="w-full" src="src/assets/imgs/plaque-4.svg" /></div>
+          <div className=""><img className="w-full" src={GraphDesPlaque}/></div>
 
           <div className="flex justify-between">
             <div className="flex">
@@ -135,7 +145,7 @@ function OurCourses()
 
       <div className="flex-col flex justify-between p-10 xl:p-[50px]">
         <div className="flex-col flex gap-6 xl:gap-[30px]">
-          <div className=""><img className="w-full" src="src/assets/imgs/plaque-5.svg" /></div>
+          <div className=""><img className="w-full" src={WebDesPlaque} /></div>
 
           <div className="flex justify-between">
             <div className="flex">
@@ -163,7 +173,7 @@ function OurCourses()
 
       <div className="flex-col flex w-full gap-[30px] justify-between p-10 xl:p-[50px]">
         <div className="flex-col flex gap-6 xl:gap-[30px]">
-          <div className=""><img className="w-full" src="src/assets/imgs/plaque-6.svg" /></div>
+          <div className=""><img className="w-full" src={JSPlaque} /></div>
 
           <div className="flex justify-between">
             <div className="flex">
